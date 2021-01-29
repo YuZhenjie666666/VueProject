@@ -1,0 +1,4 @@
+# node_module文件夹是忽略内容，这个是上传git的内容
+# .idea
+# .vscode
+# .git
