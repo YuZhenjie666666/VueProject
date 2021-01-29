@@ -3,6 +3,7 @@ import Vue from 'vue'
 
 // 导入mui组件
 import  './lib/mui/css/mui.min.css'
+import  './lib/mui/css/icons-extra.css'
 
 
 // 按需导入mintui组件
