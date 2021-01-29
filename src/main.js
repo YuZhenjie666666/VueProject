@@ -14,9 +14,17 @@ import  './lib/mui/css/mui.min.css'
 import  './lib/mui/css/icons-extra.css'
 
 
+// 2.1导入vue-resource
+import VueRource from  'vue-resource'
+// 2.2安装vue-resource
+Vue.use(VueRource)
+
+
 // 按需导入mintui组件
-import { Header } from 'mint-ui'
+import { Header,Swipe, SwipeItem } from 'mint-ui'
 Vue.component(Header.name,Header)
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 
 
 //导入App根组件
