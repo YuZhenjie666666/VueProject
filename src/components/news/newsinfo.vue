@@ -1,5 +1,6 @@
 <template>
   <div class="newsinfo-container">
+       <mt-header fixed title="学校新闻详情" class="mint-header-title"></mt-header>
     <!-- 大标题 -->
     <h3 class="title">{{ newsinfos[0].title }}</h3>
     <!-- 子标题 -->

@@ -1,15 +1,15 @@
 <template>
   <div class="app-container">
     <!-- 这是顶部信息 -->
-    <mt-header fixed title="教师评价系统"></mt-header>
+    <!-- <mt-header fixed title="教师评价系统"></mt-header> -->
 
     <!--中间信息 transition是加动画效果 -->
-    <transition>
+    <!-- <transition> -->
       <router-view></router-view>
-    </transition>
+    <!-- </transition> -->
 
     <!-- 这是底部消息 -->
-    <nav class="mui-bar mui-bar-tab">
+    <!-- <nav class="mui-bar mui-bar-tab">
       <router-link class="mui-tab-item" to="/home">
         <span class="mui-icon mui-icon-home"></span>
         <span class="mui-tab-label">首页</span>
@@ -29,7 +29,7 @@
         <span class="mui-icon mui-icon-search"></span>
         <span class="mui-tab-label">搜索</span>
       </router-link>
-    </nav>
+    </nav> -->
   </div>
 </template>
 

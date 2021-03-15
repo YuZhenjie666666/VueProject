@@ -15,7 +15,8 @@ import moment from 'moment'
 Vue.filter('dateFormat', function (dataStr, pattern = "YYYY-MM-DD HH:mm:ss") {
   return moment(dataStr).format(pattern)
 })
-
+// 导入bootstrap组件
+import 'bootstrap/dist/css/bootstrap.css'
 
 // 导入mui组件
 import  './lib/mui/css/mui.min.css'
@@ -29,11 +30,14 @@ Vue.use(VueRource)
 
 
 // 按需导入mintui组件
-import { Header,Swipe, SwipeItem,Button  } from 'mint-ui'
+import { Header,Swipe, SwipeItem,Button,Search,Cell,Field    } from 'mint-ui'
 Vue.component(Header.name,Header)
-Vue.component(Swipe.name, Swipe);
-Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Swipe.name, Swipe)
+Vue.component(SwipeItem.name, SwipeItem)
 Vue.component(Button.name, Button)
+Vue.component(Search.name, Search)
+Vue.component(Cell.name, Cell)
+Vue.component(Field.name, Field)
 
 
 //导入App根组件

@@ -1,5 +1,6 @@
 <template>
     <div>
+           <mt-header fixed title="学校教学新闻列表" class="mint-header-title"></mt-header>
         <ul class="mui-table-view">
 				<li class="mui-table-view-cell mui-media" v-for="item in news" :key="item.url">
 					<router-link :to="'/home/newsinfo/'+item.id">
